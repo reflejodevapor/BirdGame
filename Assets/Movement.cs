@@ -10,43 +10,41 @@ public class Movement : MonoBehaviour {
     public Vector2 LeftToRightMovement = new Vector2(5f, 8f);
     public Vector2 RightToLeftMovement = new Vector2(-5f, 8f);
     // Use this for initialization
-    void Start () {
+    void Start () 
+	{
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
-        if (this.transform.position.y > -2)
-        {
-            saltando = true;
-        }
-        else
-        {
-            saltando = false;
-        }
-        
-        if(this.transform.position.y == -2f)
-        {
-            bird.constraints = RigidbodyConstraints2D.FreezePositionY;
-            print(bird.transform.position.y);
-        }
-
+	        
+		///INPUTS
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Movimiento();
+			if (saltando == false)
+			{
+				Movimiento ();
+				saltando = true;
+			}
             print(bird.transform.position.y);
+
         }
 
         if (this.transform.position.x <= -2 || this.transform.position.x >= 2)
         {
             bird.velocity = Vector2.down;
         }
-
-
-
-		
+			
 	}
+
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.CompareTag ("Trigger de Salto")) 
+		{
+			saltando = false;
+		}
+	}
+
 
     public void Movimiento()
     {
