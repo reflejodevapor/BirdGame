@@ -1,0 +1,337 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"temp",
+				"temp_pw"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"tex",
+				"texto"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"img",
+				"img\tTag"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"class",
+				"class\tAttr"
+			],
+			[
+				"style",
+				"style\tAttr"
+			],
+			[
+				"styl",
+				"style\tAttr"
+			],
+			[
+				"backgoru",
+				"background-attachment"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"div",
+				"div\t<div>"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"sy",
+				"style\tTag"
+			],
+			[
+				"section",
+				"section\tTag"
+			],
+			[
+				"cl",
+				"class\tAttr"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"PACKAGE ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Install Package Control"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Ruben/Documents/GitHub/BirdGame"
+	],
+	"file_history":
+	[
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/podcast.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/episodios.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/menu2.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/menu.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/mailing.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/comment.php",
+		"/C/wamp64/www/loginexamen/auth.php",
+		"/C/wamp64/www/loginexamen/bienvenido.php",
+		"/C/wamp64/www/tareaboostrap/index.php",
+		"/C/wamp64/www/loginexamen/doonce.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-3/logout.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-3/config.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/login.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-3/session.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-3/bienvenido.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-3/index.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/main.css",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/session.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/config.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/sql_connect 2.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-3/sql_connect.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-3/podcast.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-2/pruebacomentarios.php",
+		"/C/Users/Ruben/AppData/Local/Temp/fz3temp-3/main.css",
+		"/D/PROGRAMACION WEB/tarea boostrap/css/styles.css",
+		"/C/Users/Ruben/Desktop/startbootstrap-blog-post-gh-pages/index.html",
+		"/D/PROGRAMACION WEB/tarea boostrap/index.html",
+		"/D/PROGRAMACION WEB/sitio 4 bootstrap/index.html",
+		"/D/PROGRAMACION WEB/tarea boostrap/css/bootstrap.min.css",
+		"/D/PROGRAMACION WEB/sitio 4 bootstrap/initializr/index.html",
+		"/C/Users/Ruben/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Ruben/Desktop/asd/index.html",
+		"/C/Users/Ruben/AppData/Local/Temp/Rar$DRa9200.46048/blendedMenu.css",
+		"/C/Users/Ruben/AppData/Local/Temp/Rar$DRa9200.44229/index.html",
+		"/C/Users/Ruben/AppData/Local/Temp/Rar$DRa10084.16691/assets/css/main.css",
+		"/C/Users/Ruben/AppData/Local/Temp/Rar$DRa10084.23156/index.html",
+		"/C/Users/Ruben/AppData/Local/Temp/Rar$DRa9228.26687/index.html",
+		"/C/Users/Ruben/Desktop/asd/1.html",
+		"/D/PROGRAMACION WEB/sitio/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "myproj.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
