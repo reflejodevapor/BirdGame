@@ -7,6 +7,8 @@ public class Movement : MonoBehaviour {
     bool posicion = false;
     bool saltando = false;
     public Rigidbody2D bird;
+	public GameObject birdmouth;
+	public GameObject birdspit;
     public Vector2 LeftToRightMovement = new Vector2(5f, 8f);
     public Vector2 RightToLeftMovement = new Vector2(-5f, 8f);
     // Use this for initialization
@@ -34,7 +36,13 @@ public class Movement : MonoBehaviour {
         {
             bird.velocity = Vector2.down;
         }
-			
+
+		if (Input.GetMouseButtonDown (0))
+		{
+			Instantiate (birdspit, birdmouth.transform.position, Quaternion.identity, null);
+		}
+
+
 	}
 
 	private void OnTriggerEnter2D(Collider2D other)
