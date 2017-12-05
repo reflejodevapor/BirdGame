@@ -9,8 +9,8 @@ public class Movement : MonoBehaviour {
     public Rigidbody2D bird;
 	public GameObject birdmouth;
 	public GameObject birdspit;
-    public Vector2 LeftToRightMovement = new Vector2(5f, 8f);
-    public Vector2 RightToLeftMovement = new Vector2(-5f, 8f);
+    public Vector2 LeftToRightMovement = new Vector2(4f, 7f);
+    public Vector2 RightToLeftMovement = new Vector2(-4f, 7f);
     // Use this for initialization
     void Start () 
 	{
@@ -32,9 +32,9 @@ public class Movement : MonoBehaviour {
 
         }
 
-        if (this.transform.position.x <= -2 || this.transform.position.x >= 2)
+       if (this.transform.position.x <= -2 || this.transform.position.x >= 2)
         {
-            bird.velocity = Vector2.down;
+			bird.velocity = Vector2.down;
         }
 
 		if (Input.GetMouseButtonDown (0))
