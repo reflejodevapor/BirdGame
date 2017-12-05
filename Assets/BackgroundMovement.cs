@@ -8,13 +8,10 @@ public class BackgroundMovement : MonoBehaviour
 	public GameObject tope;
 	private Vector3 startPosition;
 	public MeshRenderer m1;
+	public Material[] memes;
 
 	void Start()
 	{
-
-			startPosition = this.transform.position;
-
-
 	}
 
 	void Update()
@@ -22,19 +19,13 @@ public class BackgroundMovement : MonoBehaviour
 
 		this.transform.Translate (Vector2.up * Time.deltaTime * scrollSpeed);
 
-		if (IsVisibleInCamera () == false) 
+		if (IsVisibleInCamera () == false && this.transform.position.y < -10.0f)
 		{
-			if (this.gameObject.CompareTag ("image1")) 
-			{
-				this.transform.position = startPosition1;
-			}
+			
+			this.transform.position = new Vector3(this.transform.position.x,this.transform.position.y - (m1.bounds.max.y * 4),0);
+			m1.material = memes [Random.Range (0, 2)];
 
-			if (this.gameObject.CompareTag ("image2")) 
-			{
-				this.transform.position = startPosition1;
-			}
 		}
-
 	}
 
 	/*void OnBecameInvisible()
