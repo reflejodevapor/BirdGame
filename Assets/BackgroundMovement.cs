@@ -21,10 +21,8 @@ public class BackgroundMovement : MonoBehaviour
 
 		if (IsVisibleInCamera () == false && this.transform.position.y < -10.0f)
 		{
-			
 			this.transform.position = new Vector3(this.transform.position.x,this.transform.position.y - (m1.bounds.max.y * 4),0);
 			m1.material = memes [Random.Range (0, 2)];
-
 		}
 	}
 
