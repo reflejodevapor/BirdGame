@@ -22,8 +22,9 @@ GameObject:
   - component: {fileID: 212944325172083760}
   - component: {fileID: 61873286886825498}
   - component: {fileID: 95128469341450234}
+  - component: {fileID: 114065679501438046}
   m_Layer: 0
-  m_Name: Enemy 1
+  m_Name: skullkid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84,6 +85,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114065679501438046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085006354676560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2caae903fecf4c447b0618e560edc412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadDisparo: 0
 --- !u!212 &212944325172083760
 SpriteRenderer:
   m_ObjectHideFlags: 1

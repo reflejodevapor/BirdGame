@@ -8,6 +8,7 @@ TagManager:
   - bulletdestroy
   - piedeimagen
   - cabezadeimagen
+  - bullet
   layers:
   - Default
   - TransparentFX
