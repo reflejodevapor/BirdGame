@@ -1,28 +1,21 @@
 fileFormatVersion: 2
-guid: 9cfa1c6f3eced6140943c77b79b93f23
-timeCreated: 1512505491
+guid: 580b94324098d2e449a7c94cee82c8dc
+timeCreated: 1512548110
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
-    100000: bullet
+    100000: SkullClosedMouth
     100002: //RootNode
-    400000: bullet
+    400000: SkullClosedMouth
     400002: //RootNode
-    2300000: bullet
-    3300000: bullet
-    4300000: bullet
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: palette
-    second: {fileID: 2100000, guid: 91ca375f585ed1344b51cef9d821662b, type: 2}
+    2300000: SkullClosedMouth
+    3300000: SkullClosedMouth
+    4300000: SkullClosedMouth
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -35,7 +28,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

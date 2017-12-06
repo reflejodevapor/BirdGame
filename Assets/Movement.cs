@@ -39,7 +39,7 @@ public class Movement : MonoBehaviour {
 
 		if (Input.GetMouseButtonDown (0))
 		{
-			Instantiate (birdspit, birdmouth.transform.position, Quaternion.identity, null);
+			Instantiate (birdspit, birdmouth.transform.position, Quaternion.identity,null);
 		}
 
 
