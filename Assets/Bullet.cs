@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour
 {
 	public Rigidbody2D bullet;
 	public float velocidadDisparo = 1.0f;
+	//public GameObject col;
 	
 	// Update is called once per frame
 	void Update () 
@@ -16,6 +17,16 @@ public class Bullet : MonoBehaviour
 	void OnBecameInvisible()
 	{
 		Destroy (this.gameObject);
+	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		/*col = other.GetComponent<GameObject>();
+
+		if (col.CompareTag ("bullet")) 
+		{
+			Destroy (col);
+		}*/
 	}
 
 }

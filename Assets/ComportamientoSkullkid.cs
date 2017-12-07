@@ -5,6 +5,8 @@ using UnityEngine;
 public class ComportamientoSkullkid : MonoBehaviour {
 
 	public float velocidadDisparo;
+	public GameObject skullkit;
+	public UI yuai;
 
 	// Use this for initialization
 	void Start () {
@@ -19,11 +21,13 @@ public class ComportamientoSkullkid : MonoBehaviour {
 		
 	}
 
-	private void OnCollisionEnter2D(Collision2D coll)
+	private void OnTriggerEnter2D(Collider2D other)
 	{
-		if (coll.gameObject.CompareTag ("bullet")) 
+		if (other.gameObject.CompareTag ("bullet")) 
 		{
-			Destroy (this);
+			Destroy (this.gameObject);
+			Destroy (other.gameObject);
+			yuai.score += 1;
 		}
 	}
 }
