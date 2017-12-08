@@ -26,20 +26,6 @@ public class BackgroundMovement : MonoBehaviour
 		}
 	}
 
-	/*void OnBecameInvisible()
-	{
-		print(this.gameObject.tag);
-		if (this.gameObject.CompareTag ("image1")) 
-		{
-			this.transform.position = startPosition1;
-		}
-
-		if (this.gameObject.CompareTag ("image2")) 
-		{
-			this.transform.position = startPosition2;
-		}
-	}*/
-
 	public bool IsVisibleInCamera()
         {
 		Plane[] planes = GeometryUtility.CalculateFrustumPlanes(Camera.main);

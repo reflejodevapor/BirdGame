@@ -7,6 +7,7 @@ public class UI : MonoBehaviour {
 
 	public Text scoretext;
 	public Text bulletstext;
+	public Image hearts;
 	public int score = 0;
 	public int health = 3;
 	public int bullets = 5;
@@ -19,7 +20,8 @@ public class UI : MonoBehaviour {
 		scoretext.text = score.ToString ();
 
 
-		InvokeRepeating ("ReloadBullets", 2.0f, 3.0f);
+		InvokeRepeating ("ReloadBullets", 2.0f, 1.5f);
+		InvokeRepeating ("ReloadHearts", 2.0f, 8.0f);
 		
 	}
 	
@@ -28,13 +30,24 @@ public class UI : MonoBehaviour {
 	{
 		bulletstext.text = bullets.ToString ();
 		scoretext.text = score.ToString ();
+		hearts.fillAmount = (health * 0.333f);
+
 	}
 
 	void ReloadBullets()
 	{
-		if (bullets > 0 && bullets < 5) 
+		if (bullets >= 0 && bullets < 5) 
 		{
 			bullets += 1;
+		}
+
+	}
+
+	void ReloadHearts()
+	{
+		if (health > 0 && health < 3) 
+		{
+			health += 1;
 		}
 
 	}

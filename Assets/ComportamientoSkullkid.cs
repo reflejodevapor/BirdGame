@@ -6,10 +6,11 @@ public class ComportamientoSkullkid : MonoBehaviour {
 
 	public float velocidadDisparo;
 	public GameObject skullkit;
-	public UI yuai;
+	public UI iuai;
 
 	// Use this for initialization
 	void Start () {
+		iuai = Camera.main.GetComponent<UI> ();
 		
 	}
 	
@@ -27,7 +28,7 @@ public class ComportamientoSkullkid : MonoBehaviour {
 		{
 			Destroy (this.gameObject);
 			Destroy (other.gameObject);
-			yuai.score += 1;
+			iuai.score += 1;
 		}
 	}
 }

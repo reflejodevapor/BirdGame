@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour {
     public Rigidbody2D bird;
 	public GameObject birdmouth;
 	public GameObject birdspit;
+	public UI yuai;
     public Vector2 LeftToRightMovement = new Vector2(4f, 7f);
     public Vector2 RightToLeftMovement = new Vector2(-4f, 7f);
     // Use this for initialization
@@ -39,7 +40,13 @@ public class Movement : MonoBehaviour {
 
 		if (Input.GetMouseButtonDown (0))
 		{
-			Instantiate (birdspit, birdmouth.transform.position, Quaternion.identity,null);
+			if (yuai.bullets > 0 && yuai.bullets <= 5) 
+			{
+				yuai.bullets -= 1;
+				Instantiate (birdspit, birdmouth.transform.position, Quaternion.identity,null);
+			}
+
+
 		}
 
 
@@ -50,6 +57,11 @@ public class Movement : MonoBehaviour {
 		if (other.CompareTag ("Trigger de Salto")) 
 		{
 			saltando = false;
+		}
+		if (other.CompareTag ("skullkid"))
+		{
+			yuai.health -= 1;
+			Destroy (other.gameObject);
 		}
 	}
 
