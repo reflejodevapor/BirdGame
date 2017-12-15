@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ComportamientoSkullkid : MonoBehaviour {
+public class ammobehaviour : MonoBehaviour {
+
 
 	public float velocidadDisparo;
 
-	public UI iuai;
-
 	// Use this for initialization
 	void Start () {
-		iuai = Camera.main.GetComponent<UI> ();
+
 		
 	}
 	
@@ -22,14 +21,20 @@ public class ComportamientoSkullkid : MonoBehaviour {
 		
 	}
 
-	private void OnTriggerEnter2D(Collider2D other)
+	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.gameObject.CompareTag ("bullet")) 
+		if (other.gameObject.CompareTag ("Player")) 
 		{
+			Debug.Log ("UPS");
+			Camera.main.GetComponent<UI>().bullets += 1;
 			Destroy (this.gameObject);
-			Destroy (other.gameObject);
-			iuai.score += 1;
 		}
-			
+	}
+
+
+	void OnCameraExit()
+	{
+		Destroy (this.gameObject);
+
 	}
 }

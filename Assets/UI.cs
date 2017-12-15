@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UI : MonoBehaviour {
 
@@ -20,8 +21,9 @@ public class UI : MonoBehaviour {
 		scoretext.text = score.ToString ();
 
 
-		InvokeRepeating ("ReloadBullets", 2.0f, 1.5f);
+		InvokeRepeating ("ReloadBullets", 2.0f, 1.0f);
 		InvokeRepeating ("ReloadHearts", 2.0f, 8.0f);
+
 		
 	}
 	
@@ -31,6 +33,11 @@ public class UI : MonoBehaviour {
 		bulletstext.text = bullets.ToString ();
 		scoretext.text = score.ToString ();
 		hearts.fillAmount = (health * 0.333f);
+		if (bullets > 5)
+			bullets = 5;
+
+		if (health == 0)
+			SceneManager.LoadScene (2);
 
 	}
 

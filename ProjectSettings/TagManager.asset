@@ -9,6 +9,8 @@ TagManager:
   - piedeimagen
   - cabezadeimagen
   - bullet
+  - skullkid
+  - ammo
   layers:
   - Default
   - TransparentFX
