@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4754222164454844}
   - component: {fileID: 212485041904963222}
   - component: {fileID: 61996099357355290}
-  - component: {fileID: 114701263434030576}
+  - component: {fileID: 114551891857844652}
   m_Layer: 0
   m_Name: ammo
   m_TagString: ammo
@@ -56,7 +56,7 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.000000059604645, y: -0.1456976}
   m_SpriteTilingProperty:
-    border: {x: 0.78, y: 0.04, z: 0.75, w: 0.37}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2.56, y: 2.56}
     newSize: {x: 2.56, y: 2.56}
@@ -67,7 +67,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0547584, y: 2.1232092}
   m_EdgeRadius: 0
---- !u!114 &114701263434030576
+--- !u!114 &114551891857844652
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -75,10 +75,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1661623438326204}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e103517afb35f4a48baee098e94c2a12, type: 3}
+  m_Script: {fileID: 11500000, guid: 770293624fd42cc46a82f3122f817b12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadDisparo: 2.28
+  velocidadDisparo: 2
 --- !u!212 &212485041904963222
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -111,7 +111,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24342f6740dc51049a786870a31865e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f161e23a8503a1c41b29b6674ffa9527, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
